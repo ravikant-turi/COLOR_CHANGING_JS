@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing :border-box;
+}
+body{
+    display: flex;
+    justify-content:center;
+    background-color: antiquewhite; 
+}
+.main-container{
+    margin-top: 200px;
+}
+.main{
+    /* border: 2px solid rgb(128, 120, 120); */
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+    box-shadow: 15px 5px 25px white;
+    background-color: white;
+}
+p{
+    font-weight: 500;
+}
+button{
+ 
+ width: 100%;
+ margin-bottom:0px;
+ border-radius: 10px;
+ font-size: 25px;
+
+}
